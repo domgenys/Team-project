@@ -1,2 +1,2 @@
 # Team-project
-E-commerce platform/website
+This is a project developed by UWL Computing and Information System Level 5 team. 
