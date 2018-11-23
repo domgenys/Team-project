@@ -1,0 +1,99 @@
+/*css for form style for login;newpassword;resetpasword*/
+/*css for form style for login;newpassword;resetpasword*/
+/*css for form style for login;newpassword;resetpasword*/
+/*css for form style for login;newpassword;resetpasword*/
+/*css for form style for login;newpassword;resetpasword*/
+/*css for form style for login;newpassword;resetpasword*/
+
+
+
+
+.login-wrap {
+  width: 450px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 150px;
+  padding: 20px;
+  background: rgb(242, 242, 242, 0.8);
+  border: 1px solid silver;
+
+}
+
+.login-wrap input{
+  width: 400px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  padding: 5px;
+
+}
+
+ p .forgot-password {
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+/*css for button login/register form*//*css for button login/register form*/
+/*css for button login/register form*//*css for button login/register form*/
+/*css for button login/register form*//*css for button login/register form*/
+.login-wrap .btn-login {
+
+  padding : 5px;
+  width:130px;
+  height: 30px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius:3px;
+  border:0;
+  font-size: 18px;
+
+}
+
+.login-wrap .btn-register {
+
+  padding : 5px;
+  width:130px;
+  height: 30px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius:3px;
+  border:0;
+  font-size: 18px;
+}
+/*css for button resetpasword form*//*css for button resetpasword form*/
+/*css for button resetpasword form*/
+/*css for button resetpasword form*/
+
+.login-wrap .btn-resetpassword {
+
+  padding : 5px;
+  width:130px;
+  height: 30px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius:3px;
+  border:0;
+  font-size: 18px;
+}
+
+
+/*css for button newpassword form*/
+.login-wrap .btn-send {
+
+  padding : 5px;
+  width:130px;
+  height: 30px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius:3px;
+  border:0;
+  font-size: 18px;
+}
