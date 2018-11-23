@@ -25,20 +25,14 @@
        <header>
          <?php 
          
-            // Change Menu after the login and the Register page is working
-            include "html/header.html";
-            
-           /* TODO 
+           // The Menu option changes if user is logged IN
             if (!is_logged_in()){
                 include "html/header.html"; // change header.html menu points
             }
             if (is_logged_in()){
                 include "html/loggedInHeader.html";
             }
-            */
-         
-         
-         
+              
          ?>
        </header>
            

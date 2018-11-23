@@ -45,12 +45,12 @@ if ($userlevel == "visitor")
 
 if (!is_logged_in()){
     
-     $login_action = "?page=login";
+      $login_action = "?page=login";
 }
 if (is_logged_in()){
     
-   //  $login_action = "?page=login";
-    include "../html/loggedInHeader.html";
-    print " <br><h2 class='welcome'>Welcome:    ".$_SESSION["users"]["first_name"]. "</h2>"; 
+    $login_action = "?page=login";
+
+    print " <br><h2>Welcome:    ".$_SESSION["users"]["first_name"]. "</h2>"; 
 }
 ?>
