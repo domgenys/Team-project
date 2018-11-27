@@ -9,6 +9,7 @@
 
 body{
     background:#f1f1f1;
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
 }
 .form-wrap {
     width: 450px;

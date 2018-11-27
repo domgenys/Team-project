@@ -1,19 +1,22 @@
 $ripple: #666;
 $white: #FFF;
 $black: #000;
+.body{
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
 
 .at-button {
   z-index: 10000000;
   position: fixed;
   right: 24px;
   bottom: 24px;
-  background: $white;
+  background: #FFF;
   width: 48px;
   height: 48px;
   padding: 12px;
   border-radius: 100%;
   box-sizing: border-box;
-  color: $ripple;
+  color: #666;
   animation: at-ripple 0.6s linear infinite;
 
   &:hover {
