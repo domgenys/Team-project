@@ -7,33 +7,37 @@
 
 
 
-
-.login-wrap {
-  width: 450px;
-  overflow: hidden;
-  margin: auto;
-  margin-top: 150px;
-  padding: 20px;
-  background: rgb(242, 242, 242, 0.8);
-  border: 1px solid silver;
+body{
+    background:#f1f1f1;
+}
+.form-wrap {
+    width: 450px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
 
 }
 
-.login-wrap input{
-  width: 400px;
-  height: 35px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  border: 1px solid silver;
-  padding: 5px;
+.form-wrap input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    padding: 5px;
 
 }
 
- p .forgot-password {
-  padding-left: 10px;
-  font-size: 13px;
-  font-weight: 100;
-  letter-spacing: 1px;
+p .forgot-password {
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 
 
@@ -44,56 +48,173 @@
 /*css for button login/register form*//*css for button login/register form*/
 /*css for button login/register form*//*css for button login/register form*/
 /*css for button login/register form*//*css for button login/register form*/
-.login-wrap .btn-login {
+.btn-login {
 
-  padding : 5px;
-  width:130px;
-  height: 30px;
-  background-color: #3498db;
-  color: #fff;
-  border-radius:3px;
-  border:0;
-  font-size: 18px;
+    padding : 5px;
+    width:130px;
+    height: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius:3px;
+    border:0;
+    font-size: 18px;
 
 }
 
-.login-wrap .btn-register {
+.btn-login:hover{
 
-  padding : 5px;
-  width:130px;
-  height: 30px;
-  background-color: #3498db;
-  color: #fff;
-  border-radius:3px;
-  border:0;
-  font-size: 18px;
+    background-color: rgb(52, 152, 219, 0.8);
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+
 }
+
+.btn-register {
+
+    padding : 5px;
+    width:130px;
+    height: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius:3px;
+    border:0;
+    font-size: 18px;
+}
+
+.btn-register:hover{
+
+    background-color: rgb(52, 152, 219, 0.8);
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+
+}
+
 /*css for button resetpasword form*//*css for button resetpasword form*/
 /*css for button resetpasword form*/
 /*css for button resetpasword form*/
 
-.login-wrap .btn-resetpassword {
+.btn-resetpassword {
 
-  padding : 5px;
-  width:130px;
-  height: 30px;
-  background-color: #3498db;
-  color: #fff;
-  border-radius:3px;
-  border:0;
-  font-size: 18px;
+    padding : 5px;
+    width:130px;
+    height: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius:3px;
+    border:0;
+    font-size: 18px;
+}
+.btn-resetpassword:hover{
+
+    background-color: rgb(52, 152, 219, 0.8);
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+
 }
 
 
 /*css for button newpassword form*/
-.login-wrap .btn-send {
+.btn-send {
 
-  padding : 5px;
-  width:130px;
-  height: 30px;
-  background-color: #3498db;
-  color: #fff;
-  border-radius:3px;
-  border:0;
-  font-size: 18px;
+    padding : 5px;
+    width:130px;
+    height: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius:3px;
+    border:0;
+    font-size: 18px;
+}
+
+.btn-send:hover{
+
+    background-color: rgb(52, 152, 219, 0.8);
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+
+}
+
+.btn-amend {
+
+    padding : 5px;
+    width:200px;
+    height: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius:3px;
+    border:0;
+    font-size: 18px;
+}
+
+.btn-amend:hover{
+
+    background-color: rgb(52, 152, 219, 0.8);
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+
+}
+
+.btn-toCard {
+
+    padding : 5px;
+    width:200px;
+    height: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius:3px;
+    border: none;
+    font-size: 18px;
+}
+
+.btn-toCard:hover{
+
+    background-color: rgb(52, 152, 219, 0.8);
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+
+}
+
+@media (max-width: 600px) {
+    .form-wrap {
+        width: 350px;
+
+    }
+
+    #logo{
+        width: 80%;
+    }
+    .form-wrap input{
+        width: 90%;
+
+    }
 }

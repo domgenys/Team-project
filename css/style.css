@@ -15,10 +15,11 @@ html {
 
 body {
        zoom: 0.8;
-     /*-moz-transform: scale(3);
-     -moz-transform-origin: 0 0;*/
+       -moz-transform:  scale(0.8);
+    // -moz-transform: zoom(0.8);
+    -moz-transform-origin:  50 50;
     //max-width: 85%;
-    margin: 0 auto;
+    //margin: 0 auto;
 }
 
 h3 {
@@ -197,7 +198,7 @@ a:visited {
     position: absolute;
     top: 50px;
     right: -110px;
-    m
+    
   }
 }
 
@@ -345,6 +346,13 @@ a:visited {
 @media (max-width: 1100px) {
     .footer-section {
         max-width: 1000px;
+       
+    }
+}
+    @media (max-width: 600px) {
+    .footer-section {
+        max-height: 150px;
+       
     }
 
 }
@@ -383,6 +391,7 @@ a:visited {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     color: #000;
     background: #fff;
+
 }
 @media (max-width: 770px) {
     .footer-cat{
@@ -468,3 +477,14 @@ a:visited {
     background-position: top;
 }
 
+/*======= end of categories =========*/
+
+/*======= card =========*/
+
+.card-wrap{
+    background-image: url(../img/dairy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: ;*/
+    background-position: top;
+}

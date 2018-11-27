@@ -1,0 +1,46 @@
+$ripple: #666;
+$white: #FFF;
+$black: #000;
+
+.at-button {
+  z-index: 10000000;
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  background: $white;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  color: $ripple;
+  animation: at-ripple 0.6s linear infinite;
+
+  &:hover {
+    i {
+      transform: rotate(135deg);
+    }
+  }
+  
+  i {
+    transform: rotate(-45deg);
+    transition: 0.3s ease;
+  }
+}
+
+
+
+@keyframes at-ripple {
+  0% {
+    box-shadow: 0 4px 10px rgba($ripple, 0.1),
+                0 0 0 0 rgba($ripple, 0.1),
+                0 0 0 5px rgba($ripple, 0.1),
+                0 0 0 10px rgba($ripple, 0.1);
+  }
+  100% {
+    box-shadow: 0 4px 10px rgba($ripple, 0.1),
+                0 0 0 5px rgba($ripple, 0.1),
+                0 0 0 10px rgba($ripple, 0.1),
+                0 0 0 20px rgba($ripple, 0);
+  }
+}
