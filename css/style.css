@@ -14,12 +14,12 @@ html {
 }
 
 body {
-       zoom: 0.8;
-       -moz-transform:  scale(0.8);
-    // -moz-transform: zoom(0.8);
+    zoom: 0.8;
+    -moz-transform:  scale(1);
+    -moz-transform: zoom(0.8);
     -moz-transform-origin:  50 50;
-    //max-width: 85%;
-    //margin: 0 auto;
+    max-width: 75%;
+    margin: 0 auto;
 }
 
 h3 {
@@ -40,20 +40,25 @@ a:link {
 a:visited {
     color: black;
 }
+.logo {
+    width: 300px;
+    height: auto;
+    margin: 5px 0px 0px 20px;
+}
 
 #logo {
     width: 300px;
     height: auto;
     margin: 5px 0px 0px 20px;
 }
-  #logo-toggle {
+#logo-toggle {
     display: none;
 
-  }
+}
 
 .header-section {
     max-width: 1500px;
-    Height: 280px;
+    height: 280px;
     margin: auto;
     background-color: rgb(242, 242, 242, 0.8);
     margin-top: 10px;
@@ -69,25 +74,30 @@ a:visited {
         max-width: 1000px;
     }
 }
+@media (max-width: 680px) {
+    #logo {
+        width: 200px;
+    }
+}
 @media (max-width: 600px) {
-  #logo {
-    display: none;
-  }
+    #logo {
+        display: none;
+    }
 
-  .header-section {
-    height: 140px;
-  }
+    .header-section {
+        height: 100px;
+    }
 
-  .icons {
-    width: 200px;
-  }
+    .icons {
+        width: 200px;
+    }
 
-  #logo-toggle {
-    display: inline-block;
-    width: 300px;
-    margin-left: 5px;
-    margin-top: 15px;
-  }
+    #logo-toggle {
+        display: inline-block;
+        width: 200px;
+        margin-left: -10px;
+        margin-top: 3px;
+    }
 }
 
 /*=======top menu =========*/
@@ -116,10 +126,15 @@ a:visited {
     padding-top: 21px;
 }
 
+.top-menu li img{
+margin-bottom: 10px;
+}
+
 .current {
     margin-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ 
 }
 
 .menu-logo {
@@ -163,8 +178,8 @@ a:visited {
 @media (max-width: 600px) {
     .top-menu {
         display: none;
-  
-}
+
+    }
 }
 
 /*======= cart =========*/
@@ -194,12 +209,12 @@ a:visited {
 }
 
 @media (max-width: 600px) {
-  .cart-icon {
-    position: absolute;
-    top: 50px;
-    right: -110px;
-    
-  }
+    .cart-icon {
+        position: absolute;
+        top: 30px;
+        right: -100px;
+
+    }
 }
 
 /*=======log menu =========*/
@@ -346,13 +361,13 @@ a:visited {
 @media (max-width: 1100px) {
     .footer-section {
         max-width: 1000px;
-       
+
     }
 }
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
     .footer-section {
         max-height: 150px;
-       
+
     }
 
 }
@@ -434,15 +449,18 @@ a:visited {
 }
 
 .banner-box {
-    background-image: url(../img/promo_banner_01.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 100%;
+    height: 420px;
+    background-color: rgb(242, 242, 242, 0.8);   
+    margin: auto;
     border-radius: 10px;
     margin-left: 2px;
-    box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px, rgba(58, 78, 95, 0.05) 0 -5px 16px;
-    width: 100%;
-    height: 500px;
-    float: left;
+    /*   box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px, rgba(58, 78, 95, 0.05) 0 -5px 16px;*/
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+
 }
 
 .category-bakery {
